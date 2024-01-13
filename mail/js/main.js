@@ -1,6 +1,7 @@
 const inviaElement = document.getElementById('invia');
 const emailElement = document.getElementById('email');
 const controlloElement = document.getElementById('controllo');
+const dadiElement = document.getElementById('dadi');
 
 const lista = ['mariorossi@gmail.com', 'demetriopadre@gmail.com', 'pakysimeone@gmail.com', 'tizianonicolai@gmail.com'];
 inviaElement.addEventListener('click', function (){
