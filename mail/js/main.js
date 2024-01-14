@@ -18,14 +18,14 @@ inviaElement.addEventListener('click', function (){
         if (mail == lista[i]) {
 
             // Stampiamo "Sei in lista..." e il link per giocare ai dadi
-            controlloElement.innerText = ("Sei in lista, congratulazioni!");
+            controlloElement.innerText = ("Hai accesso al gioco, congratulazioni!");
             dadiElement.innerHTML = (`<a href="../dadi/index.html">Entra pure</a>`);
             // Altro metodo perandare nella pagina del gioco dei dadi direttamente cliccando sul bottone
             // // document.location.href = '../dadi/index.html';
             break;
         }
          else{
-            controlloElement.innerText = ("Ti devi ancora registrare");
+            controlloElement.innerText = ("Non hai accesso al gioco");
          }
     }
 });
